@@ -18,6 +18,4 @@ Retrieve an object from a file, a database etc…
 Do operations on objects (count, compute stats, etc…)
 Update attributes of an object
 Destroy an object
-## Authors
-Kouti Divine  - [Github](https://github.com/divine016)
-Wambi Micheal - [Github](https://github.com/Hsppie)
+
