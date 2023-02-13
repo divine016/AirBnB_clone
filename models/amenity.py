@@ -1,10 +1,10 @@
-#!usr/bin/python3
-"""Amenity class"""
-import uuid
-from datetime import datetime
-from models import storage
+#!/usr/bin/python3
+"""Module for the Amenity."""
+
 from models.base_model import BaseModel
 
+
 class Amenity(BaseModel):
-    """ Amenity class """
-    name=""
+    """Class Amenity that inherits from BaseModel."""
+
+    name = ""

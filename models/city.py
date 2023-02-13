@@ -1,11 +1,11 @@
-#!usr/bin/python3
-"""City class"""
-import uuid
-from datetime import datetime
-from models import storage
+#!/usr/bin/python3
+"""Module for the City class."""
+
 from models.base_model import BaseModel
 
+
 class City(BaseModel):
-    """ City class """
-    state_id=""
-    name=""
+    """Class City that inherits from BaseModel."""
+
+    state_id = ""
+    name = ""

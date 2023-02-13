@@ -1,12 +1,12 @@
-#!usr/bin/python3
-"""Review class"""
-import uuid
-from datetime import datetime
-from models import storage
+#!/usr/bin/python3
+"""Module for the Review class."""
+
 from models.base_model import BaseModel
 
+
 class Review(BaseModel):
-    """ Review class """
+    """Class Review that inherits from BaseModel."""
+
     place_id = ""
     user_id = ""
     text = ""
