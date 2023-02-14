@@ -1,12 +1,12 @@
 #!usr/bin/python3
-"""User class"""
-import uuid
-from datetime import datetime
-from models import storage
+"""creates a User class that inherits from base model"""
+
 from models.base_model import BaseModel
 
 class User(BaseModel):
     """ User class """
+
+    
     email = ""
     Password = ""
     first_name = ""
