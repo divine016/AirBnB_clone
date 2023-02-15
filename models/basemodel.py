@@ -6,7 +6,7 @@ import json
 import models
 date_format = "%Y-%m-%dT%H:%M:%S.%f"
 def __init__(self, *args, **kwargs):
-    initialising
+    """initialising"""
     if args is not none and len(args)>0:
         pass
     if kwargs:

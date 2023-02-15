@@ -1,13 +1,11 @@
 #!/usr/bin/python3
-""" creates a City class that inherits from base model """
+""" creates a module for User class"""
 
-import uuid
-from datetime import datetime
-from models import storage
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
-    """ City class """
+    """Class for managing city objects"""
+
     state_id = ""
     name = ""
