@@ -1,10 +1,13 @@
-#!/usr/bin/python3
-"""Module for the State class."""
+#!usr/bin/python3
+"""creates a State class that inherits from base model"""
 
+import uuid
+from datetime import datetime
+from models import storage
 from models.base_model import BaseModel
 
-
 class State(BaseModel):
-    """Class State that inherits from BaseModel."""
+    """State class"""
+
 
     name = ""

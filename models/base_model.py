@@ -3,16 +3,16 @@
 import uuid
 from datetime import datetime
 from uuid import uuid4
+import json
 import models
 
 
 class BaseModel():
-    """ Defines the common attributes and methods for other classes """
+    """ Defines attributes and methods for other classes """
     def __init__(self, *args, **kwargs):
         """ init constructor """
         self.id = str(uuid.uuid4())
-        self.created_at = datetime.now()
-        self.updated_at = datetime.now()
+        self.created_at = self.updated_at = datetime.now()
 
         if kwargs:
             for key, value in kwargs.items():
