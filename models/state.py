@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-""" creates a State class that inherits from base model """
+""" creates a mmodule for User class"""
 
-import uuid
-from datetime import datetime
-from models import storage
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ State class """
+    """Class for managing state objects"""
+
     name = ""
